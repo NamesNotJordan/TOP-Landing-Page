@@ -1,0 +1,38 @@
+.html{
+    border-width: 50;
+    border-color: blueviolet;
+
+}
+#header {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#header_links{
+    display: flex;
+    justify-content: space-between;
+    padding: ;
+
+    background: greenyellow;
+}
+#HLogo {
+    align-self: ;
+    background: plum;
+}
+.headerLink {
+    padding: 0 15px;
+}
+.section {
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blue;
+}
+#s1 .pic{
+    height: 10%;
+    width: 20%;
+}
