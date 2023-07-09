@@ -12,11 +12,12 @@
     justify-content: space-between;
     font-size: 18px;
     color: #e5e7eb;
+    padding-right: 40px;
 }
 #HLogo {
-    width: 50%;
-    font: 24pxl;
     color: #f9faf8;
+    margin-right: 25%;
+    font-size: 24px;
 }
 .headerLink {
     padding: 0 15px;
@@ -26,7 +27,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
 #s1{
     background: #1f2937;
@@ -79,6 +83,7 @@ button {
     font-weight: light;
     font-style: italic;
     color: #1f2937;
+    flex-direction: column;
 }
 #actionSection {
     justify-content: center;
@@ -93,7 +98,28 @@ button {
     height: 75%;
     margin: 50px 50px;
     border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .actionContainer button{
     border-color: #e5e7eb;
+    height: 30px;
+    width: 100px;
+    align-self: center;
+}
+.actionContainer h2 {
+    margin-bottom: 0px;
+}
+.actionContainer p {
+    padding-top: 0%;
+}
+.footer {
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
