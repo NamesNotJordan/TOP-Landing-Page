@@ -1,0 +1,11 @@
+body{
+
+}
+.verBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.horBox {
+    display: flex;
+}
