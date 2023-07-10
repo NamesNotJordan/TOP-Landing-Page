@@ -1,5 +1,6 @@
 body{
-
+    background: #FFFFFF;
+    margin: 0;
 }
 .verBox {
     display: flex;
@@ -8,4 +9,103 @@ body{
 
 .horBox {
     display: flex;
+}
+.navBar {
+    background: #1F2937;
+    justify-content: space-around;
+}
+.headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 7px;
+}
+.headerLinks {
+    justify-content: space-between;
+    
+}
+.headerLinks a {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 10px;
+}
+.hero {
+    padding: 15%;
+    background: #1F2937;
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0;
+}
+button {
+    background: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+.infoDump {
+    align-items: center;
+}
+.infoDump h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.gallery {
+    justify-content: space-between;
+}
+.infoDump img {
+    
+}
+.quote {
+    background: #E5E7EB;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.quoteText {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+.quoteAuthor {
+    font-weight: bold;
+    align-self: flex-end;
+}
+.action {
+    justify-content: center;
+    padding: 7%;
+    padding-left: ;
+}
+.actionBlock {
+    background: #3882f6;
+    color: #F9FAF8;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+.actionBlock h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.actionBlock p{
+    margin: 0;
+}
+.footer {
+    background: #1F2937;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 2%;
 }
