@@ -31,6 +31,7 @@ body{
 .hero {
     padding: 15%;
     background: #1F2937;
+    justify-content: space-between;
 }
 .hero h1 {
     font-size: 48px;
@@ -42,6 +43,10 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     margin-top: 0;
+}
+.hero img {
+    width: 50%;
+    aspect-ratio: 16.9;
 }
 button {
     background: #3882f6;
@@ -58,9 +63,15 @@ button {
 }
 .gallery {
     justify-content: space-between;
+    text-align: center;
+}
+.galleryEntry{
+    align-items: center;
+    margin: 10px;
 }
 .infoDump img {
-    
+   aspect-ratio: 1 / 1;
+   width: 150px;
 }
 .quote {
     background: #E5E7EB;
@@ -83,7 +94,6 @@ button {
 .action {
     justify-content: center;
     padding: 7%;
-    padding-left: ;
 }
 .actionBlock {
     background: #3882f6;
