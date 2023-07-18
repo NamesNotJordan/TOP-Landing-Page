@@ -1,125 +1,136 @@
-.html{
-
+body{
+    background: #FFFFFF;
+    margin: 0;
 }
-#header {
+.verBox {
     display: flex;
-    justify-content: flex-end;
-    background: #1f2937;
+    flex-direction: column;
 }
 
-#header_links{
+.horBox {
     display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    color: #e5e7eb;
-    padding-right: 40px;
 }
-#HLogo {
-    color: #f9faf8;
-    margin-right: 25%;
+.navBar {
+    background: #1F2937;
+    justify-content: space-around;
+}
+.headerLogo {
     font-size: 24px;
+    color: #F9FAF8;
+    margin: 7px;
 }
-.headerLink {
-    padding: 0 15px;
+.headerLinks {
+    justify-content: space-between;
+    
 }
-.section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    padding-right: 50px;
+.headerLinks a {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 10px;
 }
-#s1{
-    background: #1f2937;
+.hero {
+    padding: 15%;
+    background: #1F2937;
+    justify-content: space-between;
 }
-#s1Left {
-    width: 50%;
-}
-#s1Left h1{
+.hero h1 {
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
+    color: #F9FAF8;
+    margin: 0;
 }
-#s1Left p{
+.hero p {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #E5E7EB;
+    margin-top: 0;
 }
-#s1 .pic{
-    width: 40%;
-    aspect-ratio: 16/9;
+.hero img {
+    width: 50%;
+    aspect-ratio: 16 / 9;
+
 }
 button {
     background: #3882f6;
-    color: #f9faf8;
+    color: #F9FAF8;
     border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    border: solid #3882f6;
 }
-#infoDump {
-    display: flex;
-    flex-direction: column;
+.infoDump {
+    align-items: center;
 }
-#infoDump h1 {
+.infoDump h1 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1f2937;
+    color: #1F2937;
 }
-.imageGallery {
-    display: flex;
+.gallery {
+    justify-content: space-between;
+    text-align: center;
 }
-.square {
-    height: 50px;
-    width: 50;
-    border: #3882f6;
-    border-radius: 10px;
+.galleryEntry{
+    align-items: center;
+    margin: 10px;
 }
-.imageGallery p {
-    font: 18px;
+.infoDump img {
+   aspect-ratio: 1 / 1;
+   width: 150px;
+   object-fit: cover;
+   border: 4px solid #3882f6;
+   border-radius: 10px;
+
 }
-#quote {
-    background: #e5e7eb;
+.quote {
+    background: #E5E7EB;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+.quoteText {
     font-size: 36px;
     font-weight: light;
     font-style: italic;
-    color: #1f2937;
-    flex-direction: column;
+    color: #1F2937;
 }
-#actionSection {
+.quoteAuthor {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+.action {
     justify-content: center;
-    align-items: center;
+    padding: 7%;
 }
-.actionContainer {
+.actionBlock {
     background: #3882f6;
-    color: #e5e7eb;
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    height: 75%;
-    margin: 50px 50px;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    color: #F9FAF8;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+    border-radius: 7px;
 }
-.actionContainer button{
-    border-color: #e5e7eb;
-    height: 30px;
-    width: 100px;
+.actionBlock h3 {
+    margin: 0;
+    font-size: 24px;
+}
+.actionBlock p{
+    margin: 0;
+}
+.actionBlock button {
+    
     align-self: center;
-}
-.actionContainer h2 {
-    margin-bottom: 0px;
-}
-.actionContainer p {
-    padding-top: 0%;
+    margin-left: 50px;
+    border: 4px solid #F9FAF8
 }
 .footer {
-    background: #1f2937;
-    color: #e5e7eb;
-    display: flex;
+    background: #1F2937;
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    color: #F9FAF8;
+    padding: 2%;
 }
